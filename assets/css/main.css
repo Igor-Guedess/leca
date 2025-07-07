@@ -255,6 +255,14 @@ main {
 .f-right {
   float: right; }
 
+.laranja {
+  color: var(--color-marketing);
+}
+
+.font36 {
+  font-size: 36px;
+}
+
 .border-effect a, .border-effect-2 a {
   display: inline !important;
   width: 100%;
@@ -6959,7 +6967,7 @@ body[data-aos-easing="ease"] [data-aos="zoom-in"] {
     mask-composite: exclude;
     background: var(--stock-gr, linear-gradient(180deg, rgba(255, 255, 255, 0.13) -11.54%, rgba(255, 255, 255, 0) 92.31%)); }
 .bc-testimonial .xb-item--content {
-  padding: 90px 110px 0;
+  padding: 90px 110px 40px;
   font-size: 28px;
   line-height: 43px;
   color: var(--color-white);
@@ -6969,15 +6977,15 @@ body[data-aos-easing="ease"] [data-aos="zoom-in"] {
   position: relative; }
   @media (max-width: 1199px) {
     .bc-testimonial .xb-item--content {
-      padding: 90px 70px 0;
+      padding: 90px 70px 40px;
       font-size: 25px; } }
   @media (max-width: 991px) {
     .bc-testimonial .xb-item--content {
-      padding: 71px 70px 0;
+      padding: 71px 70px 30px;
       font-size: 20px; } }
   @media (max-width: 767px) {
     .bc-testimonial .xb-item--content {
-      padding: 40px 40px 0; } }
+      padding: 40px 40px 20px; } }
 .bc-testimonial .xb-item--img {
   width: 100%; }
 .bc-testimonial .xb-item--author {
@@ -8112,6 +8120,17 @@ blockquote {
 .ins-border-bottom {
   border-bottom: 1px solid #0F2C31; }
 
+.groupicon {
+  max-width: none;
+  width: 500px;
+}
+  @media (max-width: 991px) {
+    .groupicon {
+      display: none; } }
+  @media (max-width: 767px) {
+    .groupicon {
+      display: none;  }  }
+
 .client-section__inner.has-bg .client-section__item {
   background: var(--Linear-logo, linear-gradient(285deg, #1F1F1F -15.2%, #1F1F1F 98.28%)); }
 .client-section__inner.style-2 {
@@ -8120,7 +8139,7 @@ blockquote {
     border-left: 1px solid #1F1F1F; }
 .client-section__item {
   min-width: 265px;
-  height: 225px;
+  height: 145px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8128,13 +8147,13 @@ blockquote {
   @media (max-width: 991px) {
     .client-section__item {
       min-width: 200px;
-      height: 200px; }
+      height: 120px; }
       .client-section__item img {
         max-height: 100px; } }
   @media (max-width: 767px) {
     .client-section__item {
       min-width: 120px;
-      height: 120px; }
+      height: 60px; }
       .client-section__item img {
         max-height: 56px; } }
 
