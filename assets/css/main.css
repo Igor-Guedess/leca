@@ -4290,20 +4290,20 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     -ms-transform: translateY(-2px);
     transform: translateY(-2px); }
 .mr-hero-content .xb-item--title {
-  font-size: 80px;
-  letter-spacing: -2.4px;
-  line-height: 95px;
+  font-size: 60px;
+  letter-spacing: -1.8px;
+  line-height: 60px;
   margin-bottom: 22px; }
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .mr-hero-content .xb-item--title {
       font-size: 60px;
-      line-height: 77px;
+      line-height: 60px;
       letter-spacing: -1.4px; } }
   @media (max-width: 1199px) {
     .mr-hero-content .xb-item--title {
-      font-size: 50px;
+      font-size: 45px;
       letter-spacing: -0.4px;
-      line-height: 70px; } }
+      line-height: 60px; } }
   @media (max-width: 767px) {
     .mr-hero-content .xb-item--title {
       font-size: 40px;
