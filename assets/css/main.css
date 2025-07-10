@@ -6886,6 +6886,11 @@ body[data-aos-easing="ease"] [data-aos="zoom-in"] {
         bottom: 0;
         top: auto; } }
 
+.video {
+  width: 580px;
+  height: 1020px;
+}
+
 .mr-testimonial .xb-item--inner {
   position: relative;
   border-top: 1px solid #333333;
@@ -12613,6 +12618,14 @@ abbr[title] {
       .footer-cta__holder h3 {
         font-size: 18px; } }
 
+.footer-col:nth-child(1) {
+  width: auto !important;
+}
+
+.row {
+  justify-content: space-between !important;
+}
+
 .footer-style-one .footer-main {
   background-color: var(--color-white);
   padding: 65px 75px; }
@@ -12800,6 +12813,7 @@ abbr[title] {
   border-bottom: 1px solid #333333; }
 
 .mr-footer-holder h2 {
+  color: var(--color-marketing);
   font-size: 80px;
   line-height: 1;
   letter-spacing: -2.4px; }
@@ -12829,6 +12843,10 @@ abbr[title] {
     .mr-footer-holder .xb-item--logo {
       margin-right: 20px;
       width: 40px; } }
+
+.footer-holder2 {
+  color: #ffffff !important;
+  font-size: 60px !important; }
 
 .mr-footer-info {
   padding-right: 90px; }
