@@ -72,8 +72,6 @@
   --easing: cubic-bezier(0.67, 0.04, 0.3, 0.91); }
 
 /* reset css start */
-:root {
-  scroll-behavior: auto; }
 
 html {
   scroll-behavior: smooth; }
@@ -257,6 +255,10 @@ main {
 
 .laranja {
   color: var(--color-marketing);
+}
+
+.alignn {
+  padding-bottom: 83px !important;
 }
 
 .font36 {
@@ -2390,6 +2392,36 @@ h6 {
     .skewInImg.animated img {
       transform: scale(1) translate(0px, 0px); }
 
+.dissolveIn {
+  -webkit-animation-name: dissolveIn;
+  animation-name: dissolveIn;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+}
+
+@keyframes dissolveIn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes dissolveIn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 [data-aos=fade-up] {
   transform: translateY(50px); }
 
@@ -4272,8 +4304,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     width: 100%; }
 
 .hero-marketing {
-  padding-top: 230px;
-  padding-bottom: 100px; }
+  padding-top: 230px; }
   @media (max-width: 991px) {
     .hero-marketing {
       padding-top: 170px; } }
@@ -12857,6 +12888,7 @@ abbr[title] {
     margin-bottom: 25px;
     letter-spacing: -0.4px; }
   .mr-footer-info .xb-item--info {
+    color: var(--color-marketing);
     font-weight: 500;
     line-height: 35px;
     letter-spacing: -0.32px;
@@ -13129,5 +13161,9 @@ abbr[title] {
   .xb-footer.sticky {
     position: sticky;
     bottom: 0; } }
+
+.ocultar {
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */
