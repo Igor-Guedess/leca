@@ -450,35 +450,38 @@
 	= testimonial slider
 	-------------------------------------------*/
 	var slider = new Swiper('.mr-testimonial-slider', {
-		spaceBetween: 100,
-		slidesPerView: 3,
+		spaceBetween: 20,
+		slidesPerView: 5,
 		roundLengths: true,
 		loop: true,
 		loopAdditionalSlides: 30,
 		centeredSlides: true,
 		autoplay: {
-			enabled: true,
-			delay: 6000
+			enabled: false
 		},
 		speed: 400,
+		navigation: {
+			nextEl: ".xb-swiper-arrow-next",
+			prevEl: ".xb-swiper-arrow-prev",
+		},
 		breakpoints: {
 			'1600': {
-				slidesPerView: 3,
+				slidesPerView: 5,
 			},
 			'1200': {
-				slidesPerView: 3,
+				slidesPerView: 4,
 			},
 			'992': {
-				slidesPerView: 2,
+				slidesPerView: 3,
 			},
 			'768': {
-				slidesPerView: 2,
+				slidesPerView: 3,
 			},
 			'576': {
 				slidesPerView: 2,
 			},
 			'0': {
-				slidesPerView: 1,
+				slidesPerView: 2,
 			},
 		},
 	});
@@ -544,7 +547,7 @@
 				slidesPerView: 4,
 			},
 			'992': {
-				slidesPerView: 3,
+				slidesPerView: 4,
 			},
 			'768': {
 				slidesPerView: 3,
