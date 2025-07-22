@@ -532,7 +532,7 @@
 		loop: true,
 		autoplay: {
 			enabled: true,
-			delay: 6000
+			delay: 5000
 		},
 		navigation: {
 			nextEl: ".xb-swiper-arrow-next",
