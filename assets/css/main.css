@@ -7079,7 +7079,7 @@ body[data-aos-easing="ease"] [data-aos="zoom-in"] {
 .bc-testimonial .xb-item--content {
   padding: 60px;
   font-size: 24px;
-  line-height: 43px;
+  line-height: 30px;
   color: var(--color-white);
   font-weight: 500;
   font-family: var(--font-heading);
@@ -7093,7 +7093,7 @@ body[data-aos-easing="ease"] [data-aos="zoom-in"] {
     .bc-testimonial .xb-item--content {
       padding: 40px;
       font-size: 22px;
-      line-height: 36px; } }
+      line-height: 28px; } }
   @media (max-width: 767px) {
     .bc-testimonial .xb-item--content {
       padding: 20px; } }
