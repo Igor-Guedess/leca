@@ -763,6 +763,19 @@
 		})
 	}
 
+		// Configurar carrossel de vídeos para centralizar
+	if (document.querySelector('.d-lg-none .mr-testimonial-slider')) {
+		new Swiper('.d-lg-none .mr-testimonial-slider', {
+			slidesPerView: 'auto',
+			centeredSlides: true,
+			spaceBetween: 20,
+			loop: true,
+			navigation: {
+				nextEl: '.xb-swiper-arrow-next',
+				prevEl: '.xb-swiper-arrow-prev',
+			},
+		});
+	}
 
 })(jQuery);
 
